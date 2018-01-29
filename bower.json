@@ -1,0 +1,6 @@
+{
+  "name": "harry-potter",
+  "dependencies": {
+    "reset-scss": "^2.0.2"
+  }
+}

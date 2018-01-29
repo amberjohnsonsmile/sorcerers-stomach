@@ -1,0 +1,64 @@
+{
+  "quotes": [
+    {
+      "quote":
+        "Harry and Dudley promptly had a furious but silent fight over who would listen at the keyhole; Dudley won, so Harry, his glasses dangling from one ear, lay flat on his stomach to listen at the crack between door and floor.",
+      "book": "Harry Potter and the Sorceror's Stone",
+      "keywords": ["fight", "glasses", "floor"]
+    },
+    {
+      "quote":
+        "He shivered and turned over, trying to get comfortable, his stomach rumbling with hunger.",
+      "book": "Harry Potter and the Sorceror's Stone",
+      "keywords": ["cold", "discomfort", "hunger"]
+    },
+    {
+      "quote":
+        "Harry's stomach lurched with nerves and Ron, he saw, looked pale under his freckles.",
+      "book": "Harry Potter and the Sorceror's Stone",
+      "keywords": ["lurch", "nervous", "freckles"]
+    },
+    {
+      "quote":
+        "His stomach twisted as he imagined it, watching Ron and the others becoming wizards, while he stumped around the grounds carrying Hagrid's bag.",
+      "book": "Harry Potter and the Sorceror's Stone",
+      "keywords": ["twist", "jealous", "bag"]
+    },
+    {
+      "quote":
+        "Harry felt as though the bottom had dropped out of his stomach.",
+      "book": "Harry Potter and the Sorceror's Stone",
+      "keywords": ["bottom", "drop", "drop out"]
+    }
+  ],
+  "images": [
+    {
+      "keyword": "fight",
+      "url": ""
+    }, {
+      "keyword": "glasses",
+      "url": ""
+    }, {
+      "keyword": "floor",
+      "url": ""
+    }, {
+      "keyword": "cold",
+      "url": ""
+    }, {
+      "keyword": "discomfort",
+      "url": ""
+    }, {
+      "keyword": "hunger",
+      "url": ""
+    }, {
+      "keyword": "lurch",
+      "url": ""
+    }, {
+      "keyword": "nervous",
+      "url": ""
+    }, {
+      "keyword": "freckles",
+      "url": ""
+    }, {
+    }]
+}
