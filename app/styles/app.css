@@ -1,5 +1,92 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Lato');
+
+html {
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  background: url('https://images.unsplash.com/photo-1502476698613-931a9afd2488') no-repeat;
+  background-size: cover;
+}
+
 nav {
+  height: 10vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, .5);
+}
+
+nav a {
+  padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+main {
+  height: 85vh;
+  text-align: center;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-align: right;
+  font-family: Tangerine, sans-serif;
+  font-size: 2rem;
+  padding: 1rem 1.5rem 0 0;
+}
+
+button {
+  margin-top: 6rem;
+  height: 4rem;
+  width: 15rem;
+  color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.quote {
+  display: block;
+  margin: 3rem 10% 0 10%;
+  padding: 3rem;
+  background: rgba(255, 255, 255, .6);
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+q {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background: rgba(255, 255, 255, .5);
+}
+
+footer a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: black;
 }
