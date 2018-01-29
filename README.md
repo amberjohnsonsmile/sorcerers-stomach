@@ -1,51 +1,14 @@
-# harry-potter
+## Galvanize Tower
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+In this project, you'll build a full-stack application that has an API, reads and writes data, and uses a library. The topic is up to you!
 
-## Prerequisites
+## Requirements
 
-You will need the following things properly installed on your computer.
+* Has an API that can list, read, update, create, and delete data
+* Has a database backing that API that has at least 2 different tables
+* Has a front-end that uses a application framework or component library that:
+    * Consumes your API (list, read, update, create, and delete actions)
+    * Uses some non-trivial (charting, mapping, payment, etc.) library
+    * Has at least 2 end-to-end tests
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd harry-potter`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Add a link to your [deployed front-end URL](), your [deployed API URL](), and any [code repos you used]().
