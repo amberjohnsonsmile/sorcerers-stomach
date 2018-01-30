@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('add');
+  this.route('donate');
 });
 
 export default Router;

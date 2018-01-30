@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    stripe: {
+        key: 'pk_test_eKxGgi0IVk2ctEaEig4QplXr'
+    },
     modulePrefix: 'harry-potter',
     environment,
     rootURL: '/',

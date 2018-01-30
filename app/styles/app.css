@@ -153,3 +153,12 @@ textarea {
 #submit-quote:hover {
   background: rgba(0, 0, 0, 0.7);
 }
+
+/* Donate page */
+.cancer {
+  text-align: center;
+}
+
+.stripe-checkout {
+  width: 20rem;
+}
