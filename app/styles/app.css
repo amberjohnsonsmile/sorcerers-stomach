@@ -7,7 +7,7 @@ html {
   height: 100vh;
   box-sizing: border-box;
   font-family: Lato, sans-serif;
-  background: url('https://images.unsplash.com/photo-1502476698613-931a9afd2488') no-repeat fixed;
+  background: url('https://images.unsplash.com/photo-1502476698613-931a9afd2488') no-repeat fixed center;
   background-size: cover;
 }
 
@@ -46,7 +46,7 @@ p {
 }
 
 button {
-  margin-top: 6rem;
+  margin-top: 8rem;
   height: 4rem;
   width: 15rem;
   color: rgba(255, 255, 255, 0.8);
@@ -63,7 +63,7 @@ button:hover {
 
 .quote {
   display: block;
-  margin: 3rem 10% 0 10%;
+  margin: 6rem 10% 0 10%;
   padding: 3rem;
   background: rgba(255, 255, 255, .6);
   text-align: left;
@@ -107,7 +107,7 @@ footer a {
 
 h2 {
   font-size: 2rem;
-  padding-top: 3rem;
+  padding-top: 5rem;
   text-transform: uppercase;
   color: white;
 }
@@ -120,26 +120,27 @@ label {
 
 textarea, input {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 textarea, #name {
   padding: 1rem;
   font-family: Lato, sans-serif;
+  box-sizing: border-box;
 }
 
 textarea {
-  height: 7rem;
+  height: 8rem;
   font-size: 1.5rem;
 }
 
 #name {
-  height: 2rem;
+  height: 3rem;
   font-size: 1.5rem;
 }
 
 #submit-quote {
   margin-top: 1rem;
-  width: 101%;
   height: 4rem;
   color: rgba(255, 255, 255, 0.8);
   border: 3px solid rgba(255, 255, 255, 0.8);
