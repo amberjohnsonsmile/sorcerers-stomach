@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('add');
   this.route('donate');
+  this.route('random');
 });
 
 export default Router;

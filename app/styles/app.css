@@ -9,19 +9,23 @@
 /* Main page */
 
 html {
-  height: 100vh;
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   background: url('https://images.unsplash.com/photo-1502476698613-931a9afd2488') no-repeat fixed center;
   background-size: cover;
 }
 
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
-  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: .5rem 1rem;
   background: rgba(255, 255, 255, .5);
   position: sticky;
 }
@@ -40,7 +44,7 @@ h1 {
 }
 
 main {
-  height: 85vh;
+  flex: 1;
   text-align: center;
 }
 
@@ -88,11 +92,10 @@ q {
 }
 
 footer {
-  height: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: .5rem 1rem;
   background: rgba(255, 255, 255, .5);
   position: sticky;
 }
