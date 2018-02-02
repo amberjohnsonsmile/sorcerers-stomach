@@ -79,6 +79,25 @@ button:focus {
   box-shadow: 0 0 10px white;
 }
 
+.edit {
+  margin-top: 1rem;
+}
+
+.edit a {
+  background: gray;
+  background-image: linear-gradient(to bottom, dimgray, gray);
+  color: #ffffff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+.edit a:hover {
+  background: darkgray;
+  background-image: linear-gradient(to bottom, gray, darkgray);
+  text-decoration: none;
+}
+
 .quote-list {
   margin: 2rem 0 6rem 0;
 }

@@ -1,4 +1,10 @@
 <li class="quote">
   <q>{{quote}}</q>
   <small>-{{source}}</small>
+  {{#unless isReal}}
+    <div class="edit">
+      <a href="#">EDIT</a>
+      <a href="#" id="delete">DELETE</a>
+    </div>
+  {{/unless}}
 </li>
