@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('add');
   this.route('donate');
   this.route('random');
+  this.route('favorites');
 });
 
 export default Router;

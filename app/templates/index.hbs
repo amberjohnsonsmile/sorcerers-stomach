@@ -1,2 +1,7 @@
 <p>a collection of real and fake quotes on the theme of Harry Potter's stomach</p>
-{{quote-stomach}}
+<h2>QUOTES</h2>
+<ul class="quote-list">
+  {{#each model.quotes as |item|}}
+    {{quote-stomach quote=item.quote source=item.source}}
+  {{/each}}
+</ul>
