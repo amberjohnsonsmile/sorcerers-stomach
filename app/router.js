@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('donate');
   this.route('random');
   this.route('favorites');
+  this.route('edit');
 });
 
 export default Router;

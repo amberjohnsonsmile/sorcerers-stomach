@@ -137,7 +137,7 @@ footer a {
 
 /* Add page */
 
-.add-quote {
+.add-quote, .edit-quote {
   color: white;
   display: flex;
   flex-direction: column;
@@ -203,6 +203,12 @@ textarea {
 
 #submit-quote:hover {
   background: rgba(0, 0, 0, 0.7);
+}
+
+/* Edit page */
+
+.edit {
+  padding-bottom: 2rem;
 }
 
 /* Donate page */
