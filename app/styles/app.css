@@ -205,6 +205,10 @@ textarea {
   background: rgba(0, 0, 0, 0.7);
 }
 
+.submitted {
+  text-align: center;
+}
+
 /* Edit page */
 
 .edit {

@@ -17,5 +17,8 @@ export default Component.extend({
     })
       .then(response => response.json())
       .catch(console.error);
+    this.$('.submitted').removeClass('hidden');
+    this.$('#quote')[0].value = '';
+    this.$('#name')[0].value = '';
   }
 });
