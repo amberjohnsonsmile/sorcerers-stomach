@@ -1,9 +1,9 @@
 <li class="quote">
-  <q>{{quote}}</q>
+  <q class={{id}}>{{quote}}</q>
   <small>-{{source}}</small>
   {{#unless isReal}}
     <div class="edit">
-      {{#link-to "edit" (query-params id=id)}}EDIT{{/link-to}}
+      {{#link-to "edit" (query-params id=id) class="edit-button"}}EDIT{{/link-to}}
       <a href="#" id="delete">DELETE</a>
     </div>
   {{/unless}}
