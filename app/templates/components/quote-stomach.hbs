@@ -1,10 +1,11 @@
 <li class="quote">
   <q class={{id}}>{{quote}}</q>
   <small>-{{source}}</small>
-  {{#unless isReal}}
-    <div class="edit">
-      {{#link-to "edit" (query-params id=id) class="edit-button"}}EDIT{{/link-to}}
-      <a href="#" id="delete">DELETE</a>
-    </div>
-  {{/unless}}
+  <div class="edit">
+    {{#link-to "comment" (query-params id=id) class="edit"}}COMMENT{{/link-to}}
+    {{#unless isReal}}
+      {{#link-to "edit" (query-params id=id) class="edit edit-button"}}EDIT{{/link-to}}
+      <a href="#" id="delete" class="edit">DELETE</a>
+    {{/unless}}
+  </div>
 </li>

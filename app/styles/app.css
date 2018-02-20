@@ -263,3 +263,12 @@ textarea {
 .edited {
   text-align: center;
 }
+
+/* Comment */
+.comment {
+  margin-top: 10rem;
+}
+
+.comment * {
+  text-align: center;
+}

@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('random');
   this.route('favorites');
   this.route('edit');
+  this.route('comment');
 });
 
 export default Router;
