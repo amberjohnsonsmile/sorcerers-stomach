@@ -190,7 +190,7 @@ textarea {
   font-size: 1.5rem;
 }
 
-#submit-quote {
+#submit-quote, #edit-quote {
   margin-top: 1rem;
   height: 4rem;
   color: rgba(255, 255, 255, 0.8);
@@ -201,7 +201,7 @@ textarea {
   font-size: 1rem;
 }
 
-#submit-quote:hover {
+#submit-quote:hover, #edit-quote:hover {
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -252,4 +252,10 @@ textarea {
 
 .hidden {
   display: none;
+}
+
+/* Edit */
+
+.edited {
+  text-align: center;
 }
