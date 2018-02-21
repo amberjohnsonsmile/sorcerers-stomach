@@ -146,6 +146,7 @@ footer a {
 }
 
 h2 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   font-size: 2.5rem;
   padding-top: 5rem;
   text-transform: uppercase;
@@ -271,4 +272,31 @@ textarea {
 
 .comment * {
   text-align: center;
+}
+
+.comments-box h2 {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-size: 2.5rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.comments-box ul {
+  display: block;
+  margin: 0 10% 5rem 10%;
+  padding: 3rem;
+  background: rgba(255, 255, 255, .6);
+}
+
+.comments-box p {
+  font-family: Lato, sans-serif;
+  text-shadow: none;
+  color: black;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.comments-box small {
+  display: block;
+  text-align: left;
 }
