@@ -299,4 +299,5 @@ textarea {
 .comments-box small {
   display: block;
   text-align: left;
+  margin: 1rem 0;
 }
