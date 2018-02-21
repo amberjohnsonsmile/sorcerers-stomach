@@ -1,9 +1,11 @@
 {{quote-stomach class="comment" id=model.quotes.quote.id quote=model.quotes.quote.quote source=model.quotes.quote.source isReal=model.quotes.quote.isReal}}
-<div class="comments-box">
-  <h2>COMMENTS</h2>
-  <ul>
-    {{#each model.comments.quoteComments as |comment|}}
-      {{comments-box comment=comment.comment name=comment.name}}
-    {{/each}}
-  </ul>
-</div>
+{{#if model.comments.quoteComments}}
+  <div class="comments-box">
+    <h2>COMMENTS</h2>
+    <ul>
+      {{#each model.comments.quoteComments as |comment|}}
+        {{comments-box comment=comment.comment name=comment.name}}
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}
