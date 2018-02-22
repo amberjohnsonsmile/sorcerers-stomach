@@ -2,9 +2,9 @@
 {{#if model.comments.quoteComments}}
   <div class="comments-box">
     <h2>COMMENTS</h2>
-    <ul>
+    <ul class="comment-container">
       {{#each model.comments.quoteComments as |comment|}}
-        {{comments-box comment=comment.comment name=comment.name id=comment.quote_id}}
+        {{comments-box comment=comment.comment name=comment.name comment_id=comment.id}}
       {{/each}}
     </ul>
   </div>

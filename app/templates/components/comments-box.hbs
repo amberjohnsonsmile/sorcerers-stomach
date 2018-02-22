@@ -2,6 +2,7 @@
   <p>{{comment}}</p>
   <small>-{{name}}</small>
   <div class="edit comment-button">
-    {{#link-to "edit-comment" (query-params id=id) class="edit edit-button"}}EDIT{{/link-to}}
+    {{#link-to "edit-comment" (query-params id=comment_id) class="edit edit-button"}}EDIT{{/link-to}}
+    <a href="#" id="delete-comment" class={{comment_id}}>DELETE</a>
   </div>
 </li>
