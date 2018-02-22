@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('edit');
   this.route('comment', function() {});
   this.route('edit-comment');
+  this.route('comment-list');
 });
 
 export default Router;

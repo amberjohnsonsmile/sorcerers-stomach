@@ -1,0 +1,11 @@
+<div class="comments-box">
+  <h2>COMMENTS</h2>
+  <ul>
+    {{#each model.comments as |comment|}}
+      {{comments-box comment=comment.comment name=comment.name comment_id=comment.id}}
+    {{/each}}
+    <li>
+      <p id="deleted" class="hidden">Comment deleted!</p>
+    </li>
+  </ul>
+</div>

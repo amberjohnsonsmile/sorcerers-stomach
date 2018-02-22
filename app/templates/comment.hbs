@@ -6,6 +6,9 @@
       {{#each model.comments.quoteComments as |comment|}}
         {{comments-box comment=comment.comment name=comment.name comment_id=comment.id}}
       {{/each}}
+      <li>
+        <p id="deleted" class="hidden">Comment deleted!</p>
+      </li>
     </ul>
   </div>
 {{/if}}
