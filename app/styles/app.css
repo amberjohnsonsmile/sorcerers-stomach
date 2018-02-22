@@ -137,7 +137,7 @@ footer a {
 
 /* Add page */
 
-.add-quote, .edit-quote, .add-comment {
+.add-quote, .edit-quote, .add-comment, .edit-comment {
   color: white;
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@ textarea {
   font-size: 1.5rem;
 }
 
-#submit-quote, #edit-quote, #submit-comment {
+#submit-quote, #edit-quote, #submit-comment, #edit-comment {
   margin-top: 1rem;
   height: 4rem;
   color: rgba(255, 255, 255, 0.8);
@@ -202,7 +202,7 @@ textarea {
   font-size: 1rem;
 }
 
-#submit-quote:hover, #edit-quote:hover, #submit-comment:hover {
+#submit-quote:hover, #edit-quote:hover, #submit-comment:hover, #edit-comment:hover {
   background: rgba(0, 0, 0, 0.7);
 }
 
@@ -312,4 +312,9 @@ textarea {
 
 .add-comment-component .submitted {
   margin: -10rem 0 10rem 0;
+}
+
+.comment-button {
+  text-align: left;
+  margin-top: 2rem;
 }

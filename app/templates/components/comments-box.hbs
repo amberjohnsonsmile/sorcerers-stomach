@@ -1,4 +1,7 @@
 <li>
   <p>{{comment}}</p>
   <small>-{{name}}</small>
+  <div class="edit comment-button">
+    {{#link-to "edit-comment" (query-params id=id) class="edit edit-button"}}EDIT{{/link-to}}
+  </div>
 </li>

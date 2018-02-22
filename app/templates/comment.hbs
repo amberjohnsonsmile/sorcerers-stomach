@@ -4,7 +4,7 @@
     <h2>COMMENTS</h2>
     <ul>
       {{#each model.comments.quoteComments as |comment|}}
-        {{comments-box comment=comment.comment name=comment.name}}
+        {{comments-box comment=comment.comment name=comment.name id=comment.quote_id}}
       {{/each}}
     </ul>
   </div>

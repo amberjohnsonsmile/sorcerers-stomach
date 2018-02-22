@@ -3,12 +3,12 @@ import Component from '@ember/component';
 export default Component.extend({
   submit(event) {
     event.preventDefault();
-    let quoteData = this.$('textarea')[0];
-    fetch('https://immense-ridge-96107.herokuapp.com/quotes/' + quoteData.id, {
+    let commentData = this.$('textarea')[0];
+    fetch('https://immense-ridge-96107.herokuapp.com/comments/' + commentData.id, {
       method: 'PUT',
       body: JSON.stringify({
-        id: quoteData.id,
-        quote: quoteData.value
+        id: commentData.id,
+        comment: commentData.value
       }),
       headers: new Headers({
         'Content-Type': 'application/json'
@@ -16,7 +16,7 @@ export default Component.extend({
     })
       .then(response => response.json())
       .catch(console.error);
-    quoteData.value = '';
+    commentData.value = '';
     this.$('.edited').removeClass('hidden');
   }
 });
