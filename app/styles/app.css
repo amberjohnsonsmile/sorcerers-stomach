@@ -249,6 +249,15 @@ textarea {
   margin-top: .5rem;
 }
 
+.thanks, .amount {
+  text-align: center;
+}
+
+.amount {
+  display: inline;
+  padding: 0;
+}
+
 /* Random */
 .random {
   display: block;
