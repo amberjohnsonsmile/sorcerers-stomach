@@ -1,18 +1,38 @@
 describe("Harry Potter and the Sorcerer's Stomach", function () {
   it('Should submit forms correctly', () => {
-    // QUOTES
-    // List
-    // Create
-    // Read
-    // Update
-    // Delete
-
-    // COMMENTS
-    // List
-    // Create
-    // Read
-    // Update
-    // Delete
-
+    cy.visit('https://hpstomach.firebaseapp.com/add');
+    cy.get('.submitted').should('have.class', 'hidden');
+    cy.get('textarea').type("Harry's stomach was aflame with red-hot worry.");
+    cy.get('#name').type("Amber");
+    cy.get('#submit-quote').click();
+    cy.get('.submitted').should('not.have.class', 'hidden');
+    cy.visit('https://hpstomach.firebaseapp.com/');
+    cy.contains("Harry's stomach was aflame").parent('li').find('.edit-button').click();
+    cy.get('.edited').should('have.class', 'hidden');
+    cy.get('textarea').type(' Would he ever get over his stomach issues?');
+    cy.get('#edit-quote').click();
+    cy.get('.edited').should('not.have.class', 'hidden');
+    cy.visit('https://hpstomach.firebaseapp.com/');
+    cy.contains("Harry's stomach was aflame").parent('li').contains('COMMENT').click();
+    cy.get('.submitted').should('have.class', 'hidden');
+    cy.get('textarea').type('This is my favorite quote!');
+    cy.get('#name').type('Amber');
+    cy.get('#submit-comment').click();
+    cy.get('.submitted').should('not.have.class', 'hidden');
+    cy.visit('https://hpstomach.firebaseapp.com/comment-list');
+    cy.contains('This is my favorite quote!').parent('li').contains('EDIT').click();
+    cy.get('.edited').should('have.class', 'hidden');
+    cy.get('textarea').type(" I love the way Harry's stomach is aflame");
+    cy.get('#edit-comment').click();
+    cy.get('.edited').should('not.have.class', 'hidden');
+    cy.visit('https://hpstomach.firebaseapp.com/');
+    cy.contains("Harry's stomach was aflame").parent('li').contains('COMMENT').click();
+    cy.get('#deleted').should('have.class', 'hidden');
+    cy.get('#delete-comment').click();
+    cy.get('#deleted').should('not.have.class', 'hidden');
+    cy.visit('https://hpstomach.firebaseapp.com/');
+    cy.contains("Harry's stomach was aflame").parent('li').contains('DELETE').click();
+    cy.visit('https://hpstomach.firebaseapp.com/');
+    cy.contains("Harry's stomach was aflame").should('not.exist');
   });
 });
