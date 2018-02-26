@@ -13,6 +13,8 @@ MIT
 
 ## Contact
 
-* [amberjohnsonsmile.co](https://amberjohnsonsmile.co)
+![headshot](https://user-images.githubusercontent.com/31632938/36687301-64dd247c-1ae6-11e8-8b2d-63f602fc0100.jpg)
+
+* Portfolio [amberjohnsonsmile.co](https://amberjohnsonsmile.co)
 * GitHub [@amberjohnsonsmile](https://github.com/amberjohnsonsmile)
 * LinkedIn [@amberjohnsonsmile](https://linkedin.com/in/amberjohnsonsmile)
