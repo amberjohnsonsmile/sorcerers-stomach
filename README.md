@@ -17,10 +17,6 @@ Explore quotes about Harry's Stomach from all seven Harry Potter books, and even
 * Heroku
 * Firebase
 
-## License
-
-MIT
-
 ## Contact
 
 Amber Johnson, Full Stack Web Developer
@@ -30,3 +26,7 @@ Amber Johnson, Full Stack Web Developer
 * Portfolio [amberjohnsonsmile.co](https://amberjohnsonsmile.co)
 * GitHub [@amberjohnsonsmile](https://github.com/amberjohnsonsmile)
 * LinkedIn [@amberjohnsonsmile](https://linkedin.com/in/amberjohnsonsmile)
+
+## License
+
+MIT
