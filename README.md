@@ -7,6 +7,16 @@ Explore quotes about Harry's Stomach from all seven Harry Potter books, and even
 
 [View backend code](https://github.com/amberjohnsonsmile/sorcerers-stomach-api)
 
+## Technologies
+* Ember
+* Node.js
+* Express.js
+* Knex.js
+* Stripe Checkout
+* Cypress
+* Heroku
+* Firebase
+
 ## License
 
 MIT
