@@ -1,5 +1,5 @@
 # Harry Potter and the Sorcerer's Stomach
-Explore quotes about Harry's Stomach from all seven Harry Potter books, and even add your own!
+Explore quotes about Harry Potter's stomach from all seven Harry Potter books, and even add your own! This full stack app includes the ability to view and add quotes as well as comment on them.
 
 [Visit site](https://hpstomach.firebaseapp.com/)
 
@@ -16,6 +16,20 @@ Explore quotes about Harry's Stomach from all seven Harry Potter books, and even
 * Cypress
 * Heroku
 * Firebase
+
+## Local Installation Instructions
+If you would like to install the Ember app locally, follow these steps:
+
+1. Create a fork of this repo
+
+1. Clone it to your local machine
+
+1. Navigate to the new folder on the command line and run `npm install`
+
+1. Run `ember serve`
+
+1. View the app in your web browser at localhost:4200/
+
 
 ## Contact
 
